@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family:sans-serif; 
+  padding:30px;
+  background:#F1F5F9;
+}
+
+.notesApp{
+  max-width:760px;
+  margin:0px auto;
+}
+.notesApp h1{
+  text-align:center;
+  margin-bottom:20px;
+}
+.notesForm{
+  margin-bottom:20px;    
+  background:#fff;
+  border:1px solid #ddd;
+  padding:20px;
+  border-radius:5px;
+}
+.formField{
+  margin-bottom:10px;
+}
+.formField input,
+.formField textarea{
+  width:100%;
+  padding:8px;
+  border:1px solid #aaa;
+  border-radius:3px;
+}
+.notesForm button{
+  padding:10px 20px;
+  background:#4F46E5;
+  color:#fff;
+  border:1px solid #4F46E5;
+  border-radius:3px;
+  cursor:pointer;
+}
+
+.noteList{
+  display:grid;
+  grid-template-columns: 1fr;
+  gap:10px;
+}
+.noteItem{
+  background:#fff;
+  padding:20px;
+  border:1px solid #ddd;
+   border-radius:5px;
+}
+.noteItem h2{
+  font-size:1.2em;
+  margin:0px 0px 10px 0px;
+}
+.noteMeta{
+  display:flex;
+  gap:10px;
+  margin-top:15px;
+  font-size:80%;
+}
+.edit{
+  background:#059669;
+  color:#fff;
+  padding:5px 10px;
+  cursor:pointer;
+    border-radius:3px;
+}
+
+.delete{
+  background:#E11D48;
+  color:#fff;
+  padding:5px 10px;
+  cursor:pointer;
+    border-radius:3px;
+}
